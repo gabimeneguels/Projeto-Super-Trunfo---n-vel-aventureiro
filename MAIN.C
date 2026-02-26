@@ -3,17 +3,9 @@
 /*
     Desafio: Criando as Cartas do Super Trunfo
     Nível: Novato
-
-    Objetivo:
-    Ler os dados de duas cartas do usuário
-    e exibir as informações na tela.
 */
 
 int main() {
-
-    // ===============================
-    // DECLARAÇÃO DAS VARIÁVEIS - CARTA 1
-    // ===============================
 
     char estado1;
     char codigo1[4];
@@ -23,10 +15,6 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    // ===============================
-    // DECLARAÇÃO DAS VARIÁVEIS - CARTA 2
-    // ===============================
-
     char estado2;
     char codigo2[4];
     char nomeCidade2[50];
@@ -34,10 +22,6 @@ int main() {
     float area2;
     float pib2;
     int pontosTuristicos2;
-
-    // ===============================
-    // ENTRADA DE DADOS - CARTA 1
-    // ===============================
 
     printf("===== CADASTRO DA CARTA 1 =====\n");
 
@@ -63,10 +47,6 @@ int main() {
     scanf("%d", &pontosTuristicos1);
 
 
-    // ===============================
-    // ENTRADA DE DADOS - CARTA 2
-    // ===============================
-
     printf("\n===== CADASTRO DA CARTA 2 =====\n");
 
     printf("Estado (A a H): ");
@@ -91,10 +71,6 @@ int main() {
     scanf("%d", &pontosTuristicos2);
 
 
-    // ===============================
-    // EXIBIÇÃO DOS DADOS
-    // ===============================
-
     printf("\n===== CARTA 1 =====\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo: %s\n", codigo1);
@@ -103,7 +79,6 @@ int main() {
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhoes\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
-
 
     printf("\n===== CARTA 2 =====\n");
     printf("Estado: %c\n", estado2);
